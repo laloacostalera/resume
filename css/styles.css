@@ -244,7 +244,8 @@ sup {
 }
 
 a {
-  color: #6BC984;
+  color: var(--bs-white);
+  background-color: var(--bs-blue);
   text-decoration: underline;
 }
 a:hover {
@@ -11402,6 +11403,7 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -11444,6 +11446,7 @@ section.resume-section .resume-section-content {
 #footer {
   text-align: center;
   padding: 1rem, 3rem, 2rem, 3rem;
+  margin: 2rem;
   font-style: italic;
   font-size: 0.75rem;
 }
